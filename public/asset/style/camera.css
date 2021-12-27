@@ -1,0 +1,53 @@
+.content-camera {
+  padding-top: 50px;
+  width: 100%; }
+  .content-camera .content-main {
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 10px; }
+    .content-camera .content-main .content-left {
+      width: 100%; }
+      .content-camera .content-main .content-left .shadow {
+        height: 700px;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.9) !important; }
+        .content-camera .content-main .content-left .shadow .box {
+          position: relative;
+          width: 100%;
+          height: 100%; }
+          .content-camera .content-main .content-left .shadow .box .button-start {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #495057;
+            color: #fff;
+            padding: 10px 50px;
+            font-size: 200%;
+            font-weight: 600;
+            border: 2px solid #f0c254;
+            border-radius: 5px; }
+            .content-camera .content-main .content-left .shadow .box .button-start:hover {
+              background-color: #fff;
+              color: #000;
+              transition: 300ms ease-in-out; }
+          .content-camera .content-main .content-left .shadow .box canvas {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; }
+          .content-camera .content-main .content-left .shadow .box .form-seach-detect .form-group {
+            margin: 0; }
+            .content-camera .content-main .content-left .shadow .box .form-seach-detect .form-group input {
+              position: absolute;
+              bottom: 0%;
+              height: 50px; }
+            .content-camera .content-main .content-left .shadow .box .form-seach-detect .form-group button {
+              position: absolute;
+              height: 50px;
+              right: 2%;
+              bottom: 0;
+              outline: 0;
+              border: 0; }
+              .content-camera .content-main .content-left .shadow .box .form-seach-detect .form-group button i {
+                font-size: 120%; }
+
+/*# sourceMappingURL=camera.css.map */

@@ -1,0 +1,79 @@
+.content-search {
+  margin-top: 150px;
+  width: 100%;
+  padding: 100px; }
+  .content-search h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+  .content-search .content-main {
+    background-color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 30px; }
+    .content-search .content-main h1 {
+      color: #040763; }
+    .content-search .content-main .custom-content {
+      color: #000;
+      margin: 1rem; }
+      .content-search .content-main .custom-content span.title {
+        font-size: 110%; }
+      .content-search .content-main .custom-content span.type {
+        font-size: 150%;
+        color: #001161; }
+    .content-search .content-main ul {
+      color: #000;
+      margin: 0px 0px 50px 0px; }
+      .content-search .content-main ul li {
+        color: #000;
+        font-size: 120%; }
+        .content-search .content-main ul li ul {
+          color: #1f3dc2;
+          font-size: 80%;
+          margin: 0px; }
+          .content-search .content-main ul li ul li {
+            color: #1f3dc2;
+            font-size: 100%; }
+            .content-search .content-main ul li ul li span {
+              color: #1f3dc2;
+              font-size: 100%; }
+              .content-search .content-main ul li ul li span a {
+                color: #1f3dc2;
+                font-size: 100%; }
+    .content-search .content-main ul {
+      color: #000;
+      margin: 0px 0px 50px 0px; }
+      .content-search .content-main ul li {
+        color: #000;
+        font-size: 120%; }
+        .content-search .content-main ul li a {
+          color: #000;
+          font-size: 100%; }
+    .content-search .content-main span.type {
+      font-size: 120%;
+      color: #001161; }
+    .content-search .content-main span.title {
+      font-size: 120%;
+      color: #001161; }
+    .content-search .content-main .table-vocabulary {
+      width: 100%; }
+      .content-search .content-main .table-vocabulary thead {
+        background-color: #FFE797;
+        border-right: 1px solid #7a7a7a;
+        border-left: 1px solid #7a7a7a; }
+        .content-search .content-main .table-vocabulary thead tr th {
+          padding: 10px 20px; }
+      .content-search .content-main .table-vocabulary tbody {
+        border-right: 1px solid #7a7a7a;
+        border-bottom: 1px solid #7a7a7a;
+        border-left: 1px solid #7a7a7a; }
+        .content-search .content-main .table-vocabulary tbody tr td {
+          padding: 10px 20px;
+          font-size: 120%;
+          font-weight: 500; }
+          .content-search .content-main .table-vocabulary tbody tr td a p {
+            color: #030542; }
+            .content-search .content-main .table-vocabulary tbody tr td a p:hover {
+              font-size: 110%;
+              font-weight: 700; }
+
+/*# sourceMappingURL=search.css.map */

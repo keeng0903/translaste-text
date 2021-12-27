@@ -1,0 +1,112 @@
+.content-search {
+    // position: absolute;
+    // top: 500px;
+    // left: 0;
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px;
+    h1 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .content-main {
+        background-color: #fff;
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 10px;
+        padding: 30px;
+        h1 {
+            color: #040763;
+        }
+        .custom-notfound {}
+        .custom-content {
+            color: #000;
+            margin: 1rem;
+            span.title {
+                font-size: 110%;
+            }
+            span.type {
+                font-size: 150%;
+                color: #001161;
+            }
+        }
+        ul {
+            color: #000;
+            margin: 0px 0px 50px 0px;
+            li {
+                color: #000;
+                font-size: 120%;
+                ul {
+                    color: #1f3dc2;
+                    font-size: 80%;
+                    margin: 0px;
+                    li {
+                        color: #1f3dc2;
+                        font-size: 100%;
+                        span {
+                            color: #1f3dc2;
+                            font-size: 100%;
+                            a {
+                                color: #1f3dc2;
+                                font-size: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ul {
+            color: #000;
+            margin: 0px 0px 50px 0px;
+            li {
+                color: #000;
+                font-size: 120%;
+                a {
+                    color: #000;
+                    font-size: 100%;
+                }
+            }
+        }
+        span.type {
+            font-size: 120%;
+            color: #001161;
+        }
+        span.title {
+            font-size: 120%;
+            color: #001161;
+        }
+        .table-vocabulary {
+            width: 100%;
+            thead {
+                background-color: #FFE797;
+                border-right: 1px solid #7a7a7a;
+                border-left: 1px solid #7a7a7a;
+                tr {
+                    th {
+                        padding: 10px 20px;
+                    }
+                }
+            }
+            tbody {
+                border-right: 1px solid #7a7a7a;
+                border-bottom: 1px solid #7a7a7a;
+                border-left: 1px solid #7a7a7a;
+                tr {
+                    td {
+                        padding: 10px 20px;
+                        font-size: 120%;
+                        font-weight: 500;
+                        a {
+                            p {
+                                color: #030542;
+                                &:hover {
+                                    font-size: 110%;
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
